@@ -10,25 +10,35 @@
 
 <body>
 
+    <!-- Header -->
     <header>
         <h1>Jimenez Boxing Camp</h1>
 
         <nav>
             <a href="#home">Home</a>
             <a href="#about">About</a>
-            <a href="#services">Programs</a>
+            <a href="#services">Services</a>
+            <a href="#products">Gallery</a>
             <a href="#contact">Contact</a>
         </nav>
     </header>
 
-   <section class="hero" id="home">
-    <h2>Train Like a Champion</h2>
-    <p>Inspired by the legacy of Manny Pacquiao. Build strength, speed, discipline, and confidence at Jimenez Boxing Camp.</p>
-    <a href="#services" class="btn">Join Our Camp</a>
-</section>
+    <!-- Home -->
+    <section class="hero" id="home">
+        <h2>Train Like a Champion</h2>
 
+        <p>
+            Inspired by the legacy of Manny Pacquiao.
+            Build strength, speed, discipline, and confidence
+            at Jimenez Boxing Camp.
+        </p>
+
+    </section>
+
+    <!-- About -->
     <section id="about">
         <h2>About Us</h2>
+
         <p>
             Jimenez Boxing Camp is dedicated to developing skilled boxers and
             promoting a healthy lifestyle through professional boxing training.
@@ -37,61 +47,188 @@
         </p>
     </section>
 
+    <!-- Programs -->
     <section id="services">
-    <h2>Our Programs</h2>
+        <h2>Our Services</h2>
 
+        <div class="services">
 
-<div class="services">
+            <div class="program-card">
+                <h3>Beginner Boxing Training</h3>
 
+                <p>
+                    Learn the fundamentals of boxing, including proper stance,
+                    footwork, punching techniques, and basic defense with
+                    experienced coaches.
+                </p>
 
-<button class="btn btn-primary">
-    <h3>Beginner Boxing Training</h3>
-    <p>
-        Learn the fundamentals of boxing, including proper stance,
-        footwork, punching techniques, and basic defense with
-        experienced coaches.
-    </p>
-    <a href="#contact" class="program-button">Join Program</a>
-</button>
- 
+                <a href="#contact" class="program-button">
+                    Join Program
+                </a>
+            </div>
 
-<button class="btn btn-primary">
-    <h3>Advanced Boxing Training</h3>
-    <p>
-        Improve your speed, power, endurance, and ring strategy
-        through intensive training designed for competitive boxers.
-    </p>
-    <a href="#contact" class="program-button">Join Program</a>
-</button>
+            <div class="program-card">
+                <h3>Advanced Boxing Training</h3>
 
-<button class="btn btn-primary">
-    <h3>Personal Coaching</h3>
-    <p>
-        Receive one-on-one coaching with customized training plans
-        to help you reach your fitness or competitive boxing goals.
-    </p>
-    <a href="#contact" class="program-button">Join Program</a>
-</button>
+                <p>
+                    Improve your speed, power, endurance, and ring strategy
+                    through intensive training designed for competitive boxers.
+                </p>
 
-</section>
+                <a href="#contact" class="program-button">
+                    Join Program
+                </a>
+            </div>
 
+            <div class="program-card">
+                <h3>Personal Coaching</h3>
 
+                <p>
+                    Receive one-on-one coaching with customized training plans
+                    to help you reach your fitness or competitive boxing goals.
+                </p>
 
-<section class="contact" id="contact">
-     <h2>Contact Us</h2> 
-     <p>Email: info@jimenezboxingcamp.com</p> 
-     <p>Phone: +63 992 912 0437</p> 
-     <p>Location: Cebu City, Philippines</p> </section>
+                <a href="#contact" class="program-button">
+                    Join Program
+                </a>
+            </div>
 
+        </div>
+    </section>
 
-</section>
+    <!-- Products -->
+    <section id="products">
+        <h2>Boxing Products</h2>
 
+        <p class="products-intro">
+            Get the essential boxing equipment you need for your training.
+        </p>
 
+        <div class="products">
+
+            <div class="product-card">
+                <img src="images/Gloves.jpeg" alt="Boxing Gloves" class="product-image">
+
+                <h3>Boxing Gloves</h3>
+
+                <p>
+                    Durable boxing gloves designed for training,
+                    sparring, and improving punching technique.
+                </p>
+
+                <h4>₱1,500</h4>
+
+                <a href="#contact" class="product-button">
+                    Order Now
+                </a>
+            </div>
+
+            <div class="product-card">
+                <img src="images/hand-wraps.jpeg" alt="Hand Wraps" class="product-image">
+
+                <h3>Hand Wraps</h3>
+
+                <p>
+                    Comfortable hand wraps that provide support
+                    and protection for your hands and wrists.
+                </p>
+
+                <h4>₱350</h4>
+
+                <a href="#contact" class="product-button">
+                    Order Now
+                </a>
+            </div>
+
+            <div class="product-card">
+                <img src="images/punching-bag.jpeg" alt="Punching Bag" class="product-image">
+
+                <h3>Punching bag</h3>
+
+                <p>
+                    Heavy-duty punching bag suitable for boxing
+                    training and workouts, featuring the
+                    Jimenez Boxing Camp design.
+                </p>
+
+                <h4>₱650</h4>
+
+                <a href="#contact" class="product-button">
+                    Order Now
+                </a>
+            </div>
+
+            <div class="product-card">
+                <img src="images/headgear.jpeg" alt="Boxing Headgear" class="product-image">
+                
+
+                <h3>Boxing Headgear</h3>
+
+                <p>
+                    Protective headgear designed to provide additional
+                    protection during boxing training and sparring.
+                </p>
+
+                <h4>₱1,800</h4>
+
+                <a href="#contact" class="product-button">
+                    Order Now
+                </a>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="contact" id="contact">
+
+        <h1>Contact Us</h1>
+
+        <p>Get in touch with Jimenez Boxing Camp.</p>
+
+        <form class="contact-form">
+
+            <input
+                type="text"
+                name="name"
+                placeholder="Your Name"
+                required
+            >
+
+            <input
+                type="email"
+                name="email"
+                placeholder="Your Email"
+                required
+            >
+
+            <input
+                type="text"
+                name="subject"
+                placeholder="Subject"
+            >
+
+            <textarea
+                name="message"
+                rows="6"
+                placeholder="Write your message here..."
+                required
+            ></textarea>
+
+            <button type="submit">Submit</button>
+
+        </form>
+
+    </section>
+
+    <!-- Footer -->
     <footer>
-        <p>&copy: 2026 Jimenez Boxing Camp. All Rights Reserved.</p>
+        <p>&copy; 2026 Jimenez Boxing Camp. All Rights Reserved.</p>
     </footer>
 
-    <script src="script.js"></script>
+    <!-- Back to Top Button -->
+    <a href="#home" class="back-to-top">↑</a>
 
 </body>
 </html>
+
